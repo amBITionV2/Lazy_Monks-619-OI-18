@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.signin-container {
+  @apply flex h-screen w-full bg-[#16042f] relative overflow-hidden p-10;
+}
+
+.signin-background {
+  @apply absolute top-0 left-0 w-full h-[829px];
+}
+
+.signin-gradient {
+  @apply absolute bottom-0 left-0 h-[125px] w-full bg-gradient-to-t from-[#160430] to-transparent;
+}
+
+.signin-logo {
+  @apply absolute top-[30px] left-[51px] flex items-center z-10;
+}
+
+.signin-left-text {
+  @apply absolute bottom-[50px] left-[62px] z-10;
+}
+
+.signin-form {
+  @apply absolute right-[68px] top-[197px] z-10;
+}
+
+.signin-input {
+  @apply mt-[21px] bg-[#260f46] rounded-[10px] h-[68px] w-[460px] flex items-center px-[22px] shadow-md;
+}
+
+.signin-input-box {
+  @apply bg-transparent border-none outline-none text-[#a3a3a3] text-[16px] font-medium font-['Poppins'] ml-[11px] w-full;
+}
+
+.signin-button {
+  @apply mt-[24px] bg-gradient-to-r from-[#501693] to-[#3e70a1] rounded-[18px] h-[62px] w-[460px] flex items-center justify-center cursor-pointer text-white text-[22px] font-medium font-['Poppins'];
+}
+
+.signin-divider {
+  @apply mt-[42px] relative;
+}
+
+.signin-divider-text {
+  @apply absolute top-[-10px] left-1/2 transform -translate-x-1/2 bg-[#16042f] px-2 text-[#b5b5b5] text-[12px] font-semibold font-['Poppins'];
+}
+
+.signin-social {
+  @apply mt-[35px] flex space-x-[9px];
+}
+
+.signin-social-btn {
+  @apply bg-[#3b2063] rounded-[11px] h-[45px] w-[225px] flex items-center justify-center shadow-md;
+}
